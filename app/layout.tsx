@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono,Inter } from "next/font/google";
 import "./globals.css";
+import { profileImg } from "@/assets/images";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,6 +23,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ralph Reeven",
   description: "Ralph Reeven Carandang portfolio.",
+    icons: {
+    icon: '/profile-img.jpg',
+    shortcut: '/profile-img.jpg',
+    apple: '/profile-img.jpg',
+  
+  },
 };
 
 export default function RootLayout({
