@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { profileImg } from '@/assets/images'
+import { profileImg } from '@/public/images'
 import { MapPin, FileText, ChevronRight, Linkedin, Github,} from 'lucide-react'
 
 import Button from './Button'
@@ -24,7 +24,7 @@ const Header = () => {
                     </div>
 
                     <div className='flex flex-col w-full gap-2 sm:flex-row '>
-                        <Button label='Download CV' bgColor='bg-black' textColor='text-white' link='' icon={< FileText size={15}/>} arrow={<ChevronRight size={18}/>} />
+                        <Button label='Download CV' bgColor='bg-black' textColor='text-white' link='/CARANDANG_CV.pdf' icon={< FileText size={15}/>} arrow={<ChevronRight size={18}/>} />
                         <Button label='LinkedIn' bgColor='bg-white' textColor='text-black' link='https://www.linkedin.com/in/ralph-reeven-carandang/' icon={< Linkedin size={15}/>} arrow={<ChevronRight size={18}/>}/>
                         <Button label='Github' bgColor='bg-white' textColor='text-black' link='https://github.com/ralphreevencarandang' icon={< Github size={15}/>} arrow={<ChevronRight size={18}/>}/>
                     </div>
