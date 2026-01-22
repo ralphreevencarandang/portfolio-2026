@@ -16,6 +16,10 @@
     @apply border border-slate-300 rounded-md  shadow-sm p-5 space-y-5;
   }
 
+  .card:hover{
+    @apply shadow-md transition-shadow
+  }
+
   .badge{
     @apply text-xs bg-zinc-100 px-2 py-1 rounded-full;
   }

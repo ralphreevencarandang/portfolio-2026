@@ -20,10 +20,19 @@ const colors = [
   'bg-yellow-500',
   'bg-purple-500',
 ]
+const strokes = [
+  'hover:stroke-red-500',
+  'hover:stroke-blue-500',
+  'hover:stroke-green-500',
+  'hover:stroke-yellow-500',
+  'hover:stroke-purple-500',
+]
+
 
 const SelectedProject = ({ project, index }: SelectedProjects) => {
 
    const circleColor = colors[index % colors.length]
+   const strokeColor = strokes[index % strokes.length]
 
   return (
     <div className="flex gap-4">
@@ -34,7 +43,7 @@ const SelectedProject = ({ project, index }: SelectedProjects) => {
             <div className="flex justify-between items-center">
               <h4 className="text-sm font-bold">{project.title}</h4>
               <Link href={project.link} target="_blank">
-                <Globe color="#71717a" size={15} className="cursor-pointer" />
+                <Globe color="#71717a" size={15} className={`cursor-pointer ${strokeColor} transition-colors `} />
               </Link>
             </div>
 

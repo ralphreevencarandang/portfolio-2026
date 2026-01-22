@@ -3,12 +3,24 @@ import About from '@/sections/About'
 import Experience from '@/sections/Experience'
 import Techstack from '@/sections/Techstack'
 import Projects from '@/sections/Projects'
+import Certificate from '@/sections/Certificate'
+import Hireme from '@/sections/Hireme'
+import Philosophy from '@/sections/Philosophy'
 const BentoGrid = () => {
   return (
     <section className='grid grid-cols-1 sm:grid-cols-12 gap-3  padding-x max-container max-w-5xl '>
         <div className=' sm:col-span-7 space-y-3'>
             <About/>
-          <Techstack/>
+            <Techstack/>
+
+         
+            <div className='grid grid-cols-1 sm:grid-cols-2 gap-3'>
+                <Certificate/>
+                <div className='grid grid-cols-1 gap-3'>
+                  <Hireme/>
+                  <Philosophy/>
+                </div>
+            </div>
 
         </div>
 
@@ -16,6 +28,8 @@ const BentoGrid = () => {
           <Experience/>
           <Projects/>
         </div>  
+
+       
 
     </section>
   )

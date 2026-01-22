@@ -10,12 +10,16 @@ const About = () => {
           <h2 className='font-bold'>About</h2>
         </div>
 
-        <p className='text leading-relaxed'>
-          I'm an Aspiring Network Engineer and Full-Stack Developer with a passion for building secure, scalable infrastructure.
+        <p className="text leading-relaxed">
+          I’m a <strong className="text-black">Web developer</strong> focused on building modern, scalable, and user-focused web applications. I specialize in <strong className="text-black">React</strong> and the <strong className="text-black">MERN stack</strong>, and I’m currently sharpening my expertise in <strong className="text-black">Next.js</strong> to create fast, SEO-optimized, and production-ready solutions.
+        </p>
 
-          My primary focus is on Enterprise Networking (VLANs, OSPF/EIGRP, VPNs) and Network Security. I love simulating complex topologies and securing them against vulnerabilities.
+        <p className="text leading-relaxed">
+          Beyond traditional web development, I’m highly interested in <strong className="text-black">integrating AI into real-world applications</strong>—using intelligent features to enhance user experience, automate workflows, and support better decision-making. 
+        </p>
 
-          Beyond networking, I build modern web applications using React and Python, bridging the gap between infrastructure and software — winning AWS Innovation Cup 2025 and Ship or Be Shipped Hackathon 2025.
+        <p className="text leading-relaxed">
+          I enjoy transforming complex ideas into clean, performant systems and continuously improving my skills to stay aligned with modern web standards.
         </p>
     </div>
   )

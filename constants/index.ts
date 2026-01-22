@@ -1,3 +1,5 @@
+import { title } from "process"
+import { Scale } from "lucide-react"
 export const frontend = [
     'HTML5',
     'CSS',
@@ -99,5 +101,37 @@ export const projectData = [
         stack: ['React', 'TailwindCSS'],
         link: 'https://quotiva-ten.vercel.app/'
     },
+
+]
+
+export const certificates = [
+    {
+        title: "Using HTML and CSS to Design a Website",
+        provider: "Department of Information and Communications Technology"
+    },
+    {
+        title: "Basic Javascript for Web Development",
+        provider: "Department of Information and Communications Technology"
+    },
+    {
+        title: "Javascript Fundametnals",
+        provider: "GreatStack"
+    },
+    {
+        title: "React Hooks Crash Course",
+        provider: "GreatStack"
+    },
+    {
+        title: "Full Stack E-Commerce Project",
+        provider: "GreatStack"
+    },
+]
+
+export const hireme = [
+    'Clean, maintainable code',
+    'Performance-focused',
+    'Pixel-perfect UI',
+    'Scalable architecture',
+    'Client-focused mindset',
 
 ]
