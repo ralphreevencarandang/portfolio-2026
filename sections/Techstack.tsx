@@ -1,6 +1,6 @@
 import { Code, CodeXml, Layers,GitPullRequest, Terminal, Cpu } from 'lucide-react'
 import React from 'react'
-
+import { frontend, backend, CMS, devTools, techSupport } from '@/constants'
 const Techstack = () => {
   return (
     <div className='card'>
@@ -10,7 +10,7 @@ const Techstack = () => {
           <h2 className='font-bold'>Tech Stack</h2>
         </div>
 
-       <div className='space-y-3'>
+       <div className='space-y-5'>
             <div className=' space-y-3   '>
                 <div className='flex items-center flex-nowrap gap-2 text-xs font-semibold text-gray-500'>
                     <span><Code color='#252ff7' size={15}/></span>
@@ -18,45 +18,67 @@ const Techstack = () => {
                 </div>
 
                 <div className='flex gap-2 flex-wrap'>
-                    <span className='badge'>HTML5</span>
-                    <span className='badge'>CSS</span>
-                    <span className='badge'>Javascript</span>
-                    <span className='badge'>Next JS</span>
-                    <span className='badge'>React JS</span>
-                    <span className='badge'>TailwindCSS</span>
-                    <span className='badge'>Bootstrap</span>
-                    <span className='badge'>GSAP</span>
-                    <span className='badge'>Framer Motion</span>
-                    <span className='badge'>Typescript</span>
-                    <span className='badge'>Shadcn</span>
-                    <span className='badge'>Daisy UI</span>
+
+                    {frontend.map( (item, index) => 
+                        <span key={index} className='badge'>{item}</span>
+                    
+                    )}
                 </div>
             </div>
 
-             <div>
+             <div className='space-y-3'>
                 <div className='flex items-center flex-nowrap gap-2 text-xs font-semibold text-gray-500'>
                     <span><CodeXml color='#23e21d' size={15}/></span>
                     <p>Backend</p>
                 </div>
+
+                <div className='flex gap-2 flex-wrap'>
+                      {backend.map( (item, index) => 
+                        <span key={index} className='badge'>{item}</span>
+                    
+                    )}
+                </div>
             </div>
 
-            <div>
+            <div className='space-y-3'>
                 <div className='flex items-center flex-nowrap gap-2 text-xs font-semibold text-gray-500'>
                     <span><Terminal color='#9e03bb' size={15}/></span>
                     <p>CMS & No-Code</p>
                 </div>
+
+                 <div className='flex gap-2 flex-wrap'>
+                      {CMS.map( (item, index) => 
+                        <span key={index} className='badge'>{item}</span>
+                    
+                    )}
+                </div>
             </div>
-            <div>
+
+            <div className='space-y-3'>
                 <div className='flex items-center flex-nowrap gap-2 text-xs font-semibold text-gray-500'>
                     <span><GitPullRequest color='#f76711' size={15} /></span>
                     <p>Developer Tools</p>
                 </div>
+
+                 <div className='flex gap-2 flex-wrap'>
+                      {devTools.map( (item, index) => 
+                        <span key={index} className='badge'>{item}</span>
+                    
+                    )}
+                </div>
             </div>
 
-             <div>
+             <div className='space-y-3'>
                 <div className='flex items-center flex-nowrap gap-2 text-xs font-semibold text-gray-500'>
                     <span><Cpu color='#00d1ea' size={15}/></span>
                     <p>IT & Technical Support</p>
+                </div>
+
+                 <div className='flex gap-2 flex-wrap'>
+                      {techSupport.map( (item, index) => 
+                        <span key={index} className='badge'>{item}</span>
+                    
+                    )}
                 </div>
             </div>
        </div>

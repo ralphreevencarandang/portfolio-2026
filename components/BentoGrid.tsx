@@ -2,24 +2,21 @@ import React from 'react'
 import About from '@/sections/About'
 import Experience from '@/sections/Experience'
 import Techstack from '@/sections/Techstack'
+import Projects from '@/sections/Projects'
 const BentoGrid = () => {
   return (
-    <section className='grid grid-cols-1 sm:grid-cols-6 gap-3  padding-x max-container max-w-5xl'>
-        <div className=' sm:col-span-4'>
+    <section className='grid grid-cols-1 sm:grid-cols-12 gap-3  padding-x max-container max-w-5xl '>
+        <div className=' sm:col-span-7 space-y-3'>
             <About/>
+          <Techstack/>
+
         </div>
 
-        <div className=' sm:col-span-2'>
+        <div className=' sm:col-span-5 space-y-3'>
           <Experience/>
+          <Projects/>
         </div>  
 
-        <div className='col-span-full'>
-          <Techstack/>
-        </div>
-
-        <div className=''>
-
-        </div>
     </section>
   )
 }

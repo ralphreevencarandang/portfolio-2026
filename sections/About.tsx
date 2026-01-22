@@ -10,7 +10,7 @@ const About = () => {
           <h2 className='font-bold'>About</h2>
         </div>
 
-        <p className='text-sm leading-relaxed'>
+        <p className='text leading-relaxed'>
           I'm an Aspiring Network Engineer and Full-Stack Developer with a passion for building secure, scalable infrastructure.
 
           My primary focus is on Enterprise Networking (VLANs, OSPF/EIGRP, VPNs) and Network Security. I love simulating complex topologies and securing them against vulnerabilities.
