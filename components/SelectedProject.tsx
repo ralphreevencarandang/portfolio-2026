@@ -37,7 +37,7 @@ const SelectedProject = ({ project, index }: SelectedProjects) => {
   return (
     <div className="flex gap-4">
 
-        <div   className={`w-2 h-2 rounded-full p-1 mt-1.25 ${circleColor}`}></div>
+        <div   className={`w-2 h-2 rounded-full p-1 mt-1.5 ${circleColor}`}></div>
 
         <div className="space-y-1">
             <div className="flex justify-between items-center">
@@ -51,7 +51,7 @@ const SelectedProject = ({ project, index }: SelectedProjects) => {
 
             <div className="flex gap-2 flex-wrap">
               {project.stack.map((item, index) => (
-                <span key={index} className="badge-square text-xxs text-zinc-500">
+                <span key={index} className="badge-square text-xxs text-zinc-600">
                   {item}
                 </span>
               ))}

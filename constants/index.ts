@@ -14,8 +14,6 @@ export const frontend = [
     'Typescript',
     'Shadcn',
     'Daisy UI'
-
-
 ]
 export const backend = [
     'Express.js',
@@ -58,7 +56,7 @@ export const projectData = [
     },
     {
         title: 'Talkly',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, optio! Nihil dolore culpa in consequatur.',
+        description: 'Built a real-time chat application using the MERN stack, featuring instant messaging, online user presence, and image sharing via Socket.IO and Cloudinary.',
         stack: ['React', 'MongoDB', 'Express.js', 'Node.js', 'TailwindCSS'],
         link: 'https://talkly-eosin.vercel.app/login'
     },
@@ -78,26 +76,26 @@ export const projectData = [
     
     {
         title: 'Swagside',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, optio! Nihil dolore culpa in consequatur.',
+        description: ' full-stack eCommerce web application with a modern, responsive UI using React and Tailwind CSS, focusing on clean design and usability.',
         stack: ['React', 'MongoDB', 'Express.js', 'Node.js', 'TailwindCSS'],
         link: 'https://swagside.vercel.app/'
     },
     {
         title: 'Memoir',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, optio! Nihil dolore culpa in consequatur.',
+        description: 'A note-taking web application built with the MERN stack for managing personal notes efficiently.',
         stack: ['React', 'MongoDB', 'Express.js', 'Node.js', 'TailwindCSS', 'Redis'],
         link: 'https://memoirapp-frontend.onrender.com/'
     },
     {
         title: 'NIKI',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, optio! Nihil dolore culpa in consequatur.',
+        description: 'A React-based Netflix-inspired app that displays a dynamic gallery of NIKI photos with a familiar streaming UI.',
         stack: ['React', 'TailwindCSS','Framer Motion'],
         link: 'https://niki-xi-six.vercel.app/'
     },
    
     {
         title: 'Quotiva',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, optio! Nihil dolore culpa in consequatur.',
+        description: 'A minimalist quote generator that displays random inspirational quotes.',
         stack: ['React', 'TailwindCSS'],
         link: 'https://quotiva-ten.vercel.app/'
     },
@@ -107,23 +105,30 @@ export const projectData = [
 export const certificates = [
     {
         title: "Using HTML and CSS to Design a Website",
-        provider: "Department of Information and Communications Technology"
+        provider: "Department of Information and Communications Technology",
+        link: '/pdfs/html-css.pdf'
     },
     {
         title: "Basic Javascript for Web Development",
-        provider: "Department of Information and Communications Technology"
+        provider: "Department of Information and Communications Technology",
+        link: '/pdfs/basic-js.pdf'
     },
     {
         title: "Javascript Fundametnals",
-        provider: "GreatStack"
+        provider: "GreatStack",
+        link: '/pdfs/js-fundamentals.pdf'
     },
     {
         title: "React Hooks Crash Course",
-        provider: "GreatStack"
+        provider: "GreatStack",
+        link: '/pdfs/react-hooks.pdf'
+
     },
     {
         title: "Full Stack E-Commerce Project",
-        provider: "GreatStack"
+        provider: "GreatStack",
+        link: '/pdfs/ecommerce.pdf'
+
     },
 ]
 

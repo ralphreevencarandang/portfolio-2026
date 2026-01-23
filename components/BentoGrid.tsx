@@ -8,7 +8,7 @@ import Hireme from '@/sections/Hireme'
 import Philosophy from '@/sections/Philosophy'
 const BentoGrid = () => {
   return (
-    <section className='grid grid-cols-1 sm:grid-cols-12 gap-3  padding-x max-container max-w-5xl '>
+    <section className='grid grid-cols-1 sm:grid-cols-12 gap-3  padding-x max-container max-w-5xl pb-10 '>
         <div className=' sm:col-span-7 space-y-3'>
             <About/>
             <Techstack/>

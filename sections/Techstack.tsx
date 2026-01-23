@@ -20,7 +20,7 @@ const Techstack = () => {
                 <div className='flex gap-2 flex-wrap'>
 
                     {frontend.map( (item, index) => 
-                        <span key={index} className='badge'>{item}</span>
+                        <span key={index} className='badge text-zinc-600'>{item}</span>
                     
                     )}
                 </div>
@@ -34,7 +34,7 @@ const Techstack = () => {
 
                 <div className='flex gap-2 flex-wrap'>
                       {backend.map( (item, index) => 
-                        <span key={index} className='badge'>{item}</span>
+                        <span key={index} className='badge text-zinc-600'>{item}</span>
                     
                     )}
                 </div>
@@ -48,7 +48,7 @@ const Techstack = () => {
 
                  <div className='flex gap-2 flex-wrap'>
                       {CMS.map( (item, index) => 
-                        <span key={index} className='badge'>{item}</span>
+                        <span key={index} className='badge text-zinc-600'>{item}</span>
                     
                     )}
                 </div>
@@ -62,7 +62,7 @@ const Techstack = () => {
 
                  <div className='flex gap-2 flex-wrap'>
                       {devTools.map( (item, index) => 
-                        <span key={index} className='badge'>{item}</span>
+                        <span key={index} className='badge text-zinc-600'>{item}</span>
                     
                     )}
                 </div>
@@ -76,7 +76,7 @@ const Techstack = () => {
 
                  <div className='flex gap-2 flex-wrap'>
                       {techSupport.map( (item, index) => 
-                        <span key={index} className='badge'>{item}</span>
+                        <span key={index} className='badge text-zinc-600'>{item}</span>
                     
                     )}
                 </div>

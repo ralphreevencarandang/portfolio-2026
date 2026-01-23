@@ -1,6 +1,7 @@
 import { Trophy } from 'lucide-react'
 import React from 'react'
 import { certificates } from '@/constants'
+import Link from 'next/link'
 const Certificate = () => {
   return (
    <div className='card '>
@@ -11,13 +12,21 @@ const Certificate = () => {
         </div>
 
         <div className='space-y-2'>
-            {certificates.map( (item, index) => 
-                <div className='bg-gray-100 p-2 rounded-lg space-y-2 hover:bg-gray-200 transition-colors cursor-pointer'>
-                    <h4 className='text-xs font-bold'>{item.title}</h4>
-                    <p className='text-xs text-zinc-600'>{item.provider}</p>
-                </div>
+
+     
             
-            )}
+              {certificates.map( (item, index) => 
+             
+                      <div key={index} className='bg-gray-100 p-2 rounded-lg  hover:bg-gray-200 transition-colors cursor-pointer'>
+                          <Link href={item.link}  target='_blank'>
+                            <h4 className='text-xs font-bold'>{item.title}</h4>
+                            <p className='text-xs text-zinc-600'>{item.provider}</p>
+                          </Link>
+                      </div>
+             
+              
+              )}
+     
        
           
         </div>

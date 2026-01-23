@@ -23,35 +23,13 @@ const Hireme = () => {
 
         <div className='space-y-2'>
             {hireme.map( (item, index)=>
-                <div className='flex items-center gap-3'>
+                <div key={index} className='flex items-center gap-3'>
                     {icons[index]}
                     {/* <span><Rocket size={15}/></span> */}
                     <p className='text-sm text-zinc-600'> {item}</p>
                 </div>
             )}
 
-
-
-            {/* <div className='flex items-center'>
-                <p className='text-sm text-zinc-600'>  Clean, maintainable code</p>
-                <span><BrushCleaning /></span>
-            </div>
-            <div className='flex items-center'>
-                <p className='text-sm text-zinc-600'>  Performance-focused</p>
-                <span><Rocket /></span>
-            </div>
-            <div className='flex items-center'>
-                <p className='text-sm text-zinc-600'>  Pixel-perfect UI</p>
-                <span><Palette /></span>
-            </div>
-            <div className='flex items-center'>
-                <p className='text-sm text-zinc-600'>  Scalable architecture</p>
-                <span><Scale /></span>
-            </div>
-            <div className='flex items-center'>
-                <p className='text-sm text-zinc-600'>   Client-focused mindset</p>
-                <span><HandHeart /></span>
-            </div> */}
 
 
       

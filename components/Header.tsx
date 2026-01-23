@@ -2,10 +2,12 @@ import React from 'react'
 import Image from 'next/image'
 import { profileImg } from '@/public/images'
 import { MapPin, FileText, ChevronRight, Linkedin, Github,} from 'lucide-react'
-
 import Button from './Button'
-
+import Link from 'next/link'
+import { handleMouseEnter, handleMouseLeave } from '@/sections/Footer'
 const Header = () => {
+
+
   return (
     <section className='max-w-5xl padding-x  pb-10'>
 
@@ -24,8 +26,19 @@ const Header = () => {
                     </div>
 
                     <div className='flex flex-col w-full gap-2 sm:flex-row '>
-                        <Button label='Download CV' bgColor='bg-black' textColor='text-white' link='/CARANDANG_CV.pdf' icon={< FileText size={15}/>} arrow={<ChevronRight size={18}/>} />
+    
+
+                        <Link href={'/pdfs/CARANDANG_CV.pdf'} className='bg-black border border-slate-300 rounded py-2 px-2 text-sm font-semibold flex items-center justify-center gap-2 cursor-pointer text-white hover:bg-white hover:text-black transition-all'
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}
+                        >
+                            <span>{< FileText size={15}/>}</span>
+                                 Download CV
+                            <span>{<ChevronRight size={18}/>}</span>
+                        </Link>
+
                         <Button label='LinkedIn' bgColor='bg-white' textColor='text-black' link='https://www.linkedin.com/in/ralph-reeven-carandang/' icon={< Linkedin size={15}/>} arrow={<ChevronRight size={18}/>}/>
+
                         <Button label='Github' bgColor='bg-white' textColor='text-black' link='https://github.com/ralphreevencarandang' icon={< Github size={15}/>} arrow={<ChevronRight size={18}/>}/>
                     </div>
 
