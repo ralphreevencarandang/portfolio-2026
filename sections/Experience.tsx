@@ -13,15 +13,15 @@ const Experience = () => {
 
                 {/* Timeline */}
                 <div className='relative flex flex-col gap-5 '>
-                    <div className='bg-zinc-100 rounded-full p-2 z-1 relative border border-zinc-200'>
-                          <BrainCog color='#52525c' size={15} />
+                    <div className='bg-zinc-100 dark:bg-zinc-800 rounded-full p-2 z-1 relative border border-zinc-200 dark:border-zinc-400'>
+                          <BrainCog className="text-zinc-500 dark:text-zinc-400"  size={15} />
                     </div>
 
-                    <div className='bg-zinc-100 rounded-full p-2 z-1 relative border border-zinc-200'>
-                          <CodeXml color='#52525c' size={15} /> 
+                    <div className='bg-zinc-100 dark:bg-zinc-800 rounded-full p-2 z-1 relative border border-zinc-200 dark:border-zinc-400'>
+                          <CodeXml className="text-zinc-500 dark:text-zinc-400" size={15} /> 
                     </div>
-                    <div className='bg-zinc-100 rounded-full p-2 z-1 relative border border-zinc-200'>
-                          <GraduationCap color='#52525c' size={15} />
+                    <div className='bg-zinc-100 dark:bg-zinc-800 rounded-full p-2 z-1 relative border border-zinc-200 dark:border-zinc-400'>
+                          <GraduationCap className="text-zinc-500 dark:text-zinc-400" size={15} />
                     </div>
                     
                     {/* Vertical Line */}
@@ -36,10 +36,10 @@ const Experience = () => {
                     <div>
                           <div className='flex justify-between'>
                             <h4 className='text-sm font-bold'>Web Developer</h4>
-                            <span className='badge text-[10px]'>2025 - 2026</span>
+                            <span className='badge text-[10px] '>2025 - 2026</span>
                             
                           </div>
-                          <p className='text-xs text-zinc-600 '>Archicoders</p>
+                          <p className='text-xs text-zinc-600 dark:text-zinc-400'>Archicoders</p>
                     </div>
                     <div>
                           <div className='flex justify-between'>
@@ -47,7 +47,7 @@ const Experience = () => {
                             <span className='badge text-[10px]'>2025</span>
                             
                           </div>
-                          <p className='text-xs text-zinc-600'>Supsoft Technologies</p>
+                          <p className='text-xs text-zinc-600 dark:text-zinc-400'>Supsoft Technologies</p>
                     </div>
                     <div>
                         <div className='flex justify-between'>
@@ -55,7 +55,7 @@ const Experience = () => {
                             <span className='badge text-[10px]'>2025</span>
                             
                           </div>
-                          <p className='text-xs text-zinc-600'>Cavite State University - Silang</p>
+                          <p className='text-xs text-zinc-600 dark:text-zinc-400'>Cavite State University - Silang</p>
                     </div>
                       
                 </div>

@@ -17,9 +17,9 @@ const Certificate = () => {
             
               {certificates.map( (item, index) => 
              
-                      <div key={index} className='bg-gray-100 p-2 rounded-lg  hover:bg-gray-200 transition-colors cursor-pointer'>
+                      <div key={index} className='bg-gray-100 p-2 rounded-lg  hover:bg-gray-200 transition-colors cursor-pointer dark:bg-zinc-800 dark:hover:bg-zinc-700'>
                           <Link href={item.link}  target='_blank'>
-                            <h4 className='text-xs font-bold'>{item.title}</h4>
+                            <h4 className='text-xs font-bold '>{item.title}</h4>
                             <p className='text-xs text-zinc-600'>{item.provider}</p>
                           </Link>
                       </div>

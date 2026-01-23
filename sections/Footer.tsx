@@ -5,8 +5,7 @@ import nextJs from '@/public/icons/next-js.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 import gsap from 'gsap'
-import { useGSAP } from '@gsap/react'
-import { useRef } from 'react'
+import nextWhite from '@/public/icons/next-white.svg'
 
  // Animation Handler
   export const handleMouseEnter = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -49,7 +48,7 @@ const socialLinks = [
 
             <div className='text-center space-y-1'>
                 <p className='font-bold text-sm'>Ralph Reeven Carandang</p>
-                <p className='text-xs text-zinc-500'>© { new Date().getFullYear() }. All rights reserved.</p>
+                <p className='text-xs text-zinc-500 dark:text-zinc-400'>© { new Date().getFullYear() }. All rights reserved.</p>
                 
             </div> 
 
@@ -71,8 +70,9 @@ const socialLinks = [
                 </div>
 
               <div className='text-center flex gap-1 justify-center items-center'>
-                <p className='text-sm'>Powered by  </p>
-                <Image src={nextJs} alt="Next.js" className='w-5' />
+                <p className='text-sm dark:text-white'>Powered by  </p>
+                <Image src={nextJs} alt="Next.js" className='w-5 dark:hidden' />
+                <Image src={nextWhite} alt="Next.js" className='w-5 not-dark:hidden' />
             </div> 
         </div>
         

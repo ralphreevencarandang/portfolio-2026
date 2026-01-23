@@ -5,6 +5,8 @@ import { MapPin, FileText, ChevronRight, Linkedin, Github,} from 'lucide-react'
 import Button from './Button'
 import Link from 'next/link'
 import { handleMouseEnter, handleMouseLeave } from '@/sections/Footer'
+import { ToggleButton } from './ToggleButton'
+import Switch from './Switch'
 const Header = () => {
 
 
@@ -21,14 +23,15 @@ const Header = () => {
 
                     <div className='flex flex-col justify-center items-center sm:items-start gap-1 '>
                         <h1 className='text-2xl font-bold'>Ralph Reeven Carandang</h1>
-                        <p className='flex items-center gap-1 text-slate-600'> <span><MapPin size={15}/></span> Cavite, Philippines</p>
+                        <p className='flex items-center gap-1 text-zinc-600 dark:text-zinc-400'> <span><MapPin size={18}/></span> Cavite, Philippines</p>
                         <h2 className='text-lg'>Fullstack Developer</h2>
                     </div>
 
                     <div className='flex flex-col w-full gap-2 sm:flex-row '>
     
 
-                        <Link href={'/pdfs/CARANDANG_CV.pdf'} className='bg-black border border-slate-300 rounded py-2 px-2 text-sm font-semibold flex items-center justify-center gap-2 cursor-pointer text-white hover:bg-white hover:text-black transition-all'
+                        <Link href={'/pdfs/CARANDANG_CV.pdf'} 
+                        className='bg-black border border-slate-300 rounded py-2 px-2 text-sm font-semibold flex items-center justify-center gap-2 cursor-pointer text-white hover:bg-white hover:text-black transition-all dark:bg-white dark:text-black'
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
                         >
@@ -37,9 +40,9 @@ const Header = () => {
                             <span>{<ChevronRight size={18}/>}</span>
                         </Link>
 
-                        <Button label='LinkedIn' bgColor='bg-white' textColor='text-black' link='https://www.linkedin.com/in/ralph-reeven-carandang/' icon={< Linkedin size={15}/>} arrow={<ChevronRight size={18}/>}/>
+                        <Button label='LinkedIn'  textColor='text-black' link='https://www.linkedin.com/in/ralph-reeven-carandang/' icon={< Linkedin size={15}/>} arrow={<ChevronRight size={18}/>}/>
 
-                        <Button label='Github' bgColor='bg-white' textColor='text-black' link='https://github.com/ralphreevencarandang' icon={< Github size={15}/>} arrow={<ChevronRight size={18}/>}/>
+                        <Button label='Github'  textColor='text-black' link='https://github.com/ralphreevencarandang' icon={< Github size={15}/>} arrow={<ChevronRight size={18}/>}/>
                     </div>
 
                 </div>
@@ -49,9 +52,10 @@ const Header = () => {
             </div>
          
 
-            <button className='absolute bg-amber-300 top-0 right-0'>
-                Theme
-            </button>
+            <div className='absolute  top-0 right-0'>
+                {/* <ToggleButton/> */}
+                <Switch/>
+            </div>
 
         </div>
      

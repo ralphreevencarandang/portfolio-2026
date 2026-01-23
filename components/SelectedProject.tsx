@@ -47,11 +47,11 @@ const SelectedProject = ({ project, index }: SelectedProjects) => {
               </Link>
             </div>
 
-            <p className="text-xs text-zinc-600 pr-4">{project.description}</p>
+            <p className="text-xs text-zinc-600 pr-4 dark:text-zinc-400">{project.description}</p>
 
             <div className="flex gap-2 flex-wrap">
               {project.stack.map((item, index) => (
-                <span key={index} className="badge-square text-xxs text-zinc-600">
+                <span key={index} className="badge-square text-xxs ">
                   {item}
                 </span>
               ))}

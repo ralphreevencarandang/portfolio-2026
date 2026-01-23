@@ -50,7 +50,7 @@ export const techSupport = [
 export const projectData = [
     {
         title: 'ThinkWrite',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, optio! Nihil dolore culpa in consequatur.',
+        description: 'An AI-powered blogging platform that generates daily content, allows prompt-based creation, publishing, and reading of blogs.',
         stack: ['Next.js', 'PostgreSQL', 'Typescript', 'OpenAI', 'TailwindCSS'],
         link: ''
     },
@@ -62,21 +62,21 @@ export const projectData = [
     },
      {
         title: 'Dev Events',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, optio! Nihil dolore culpa in consequatur.',
+        description: 'A developer-focused events platform where users can create events, book events, and browse upcoming developer activities.',
         stack: ['Next.js', 'MongoDB', 'TailwindCSS', 'Typescript'],
         link: '#'
     },
 
     {
         title: 'Mojito Craze',
-        description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, optio! Nihil dolore culpa in consequatur.',
+        description: 'A modern web experience showcasing mojito drinks, flavors, and recipes with an engaging and visually refreshing design.',
         stack: ['React', 'GSAP', 'TailwindCSS'],
         link: 'https://mojito-craze.vercel.app/'
     },
     
     {
         title: 'Swagside',
-        description: ' full-stack eCommerce web application with a modern, responsive UI using React and Tailwind CSS, focusing on clean design and usability.',
+        description: 'Full-stack eCommerce web application with a modern, responsive UI using React and Tailwind CSS, focusing on clean design and usability.',
         stack: ['React', 'MongoDB', 'Express.js', 'Node.js', 'TailwindCSS'],
         link: 'https://swagside.vercel.app/'
     },

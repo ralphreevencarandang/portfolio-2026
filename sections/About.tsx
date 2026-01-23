@@ -11,11 +11,11 @@ const About = () => {
         </div>
 
         <p className="text leading-relaxed">
-          I’m a <strong className="text-black">Fullstack Developer</strong> focused on building modern, scalable, and user-focused web applications. I specialize in <strong className="text-black">React</strong> and the <strong className="text-black">MERN stack</strong>, and I’m currently sharpening my expertise in <strong className="text-black">Next.js</strong> to create fast, SEO-optimized, and production-ready solutions.
+          I’m a <strong className="text-black dark:text-white">Fullstack Developer</strong> focused on building modern, scalable, and user-focused web applications. I specialize in <strong className="text-black dark:text-white">React</strong> and the <strong className="text-black dark:text-white">MERN stack</strong>, and I’m currently sharpening my expertise in <strong className="text-black dark:text-white">Next.js</strong> to create fast, SEO-optimized, and production-ready solutions.
         </p>
 
         <p className="text leading-relaxed">
-          Beyond traditional web development, I’m highly interested in <strong className="text-black">integrating AI into real-world applications</strong>—using intelligent features to enhance user experience, automate workflows, and support better decision-making. 
+          Beyond traditional web development, I’m highly interested in <strong className="text-black dark:text-white">integrating AI into real-world applications</strong>—using intelligent features to enhance user experience, automate workflows, and support better decision-making. 
         </p>
 
         <p className="text leading-relaxed">

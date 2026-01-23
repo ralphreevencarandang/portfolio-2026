@@ -26,7 +26,7 @@ const Hireme = () => {
                 <div key={index} className='flex items-center gap-3'>
                     {icons[index]}
                     {/* <span><Rocket size={15}/></span> */}
-                    <p className='text-sm text-zinc-600'> {item}</p>
+                    <p className='text-sm text-zinc-600 dark:text-zinc-400'> {item}</p>
                 </div>
             )}
 
