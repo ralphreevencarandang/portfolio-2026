@@ -44,3 +44,18 @@ svg.icon-toggle {
        top: 0 !important;
     right: 0 !important;
 }
+
+
+
+@media screen and (max-width: 354px ) {
+  .course-text{
+    width: 150px;
+  }
+}
+
+
+@media(min-width: 737px ) and (max-width: 850px) {
+  .course-text{
+    width: 150px;
+  }
+}

@@ -42,7 +42,7 @@ const Experience = () => {
                           <p className='text-xs text-zinc-600 dark:text-zinc-400'>Archicoders</p>
                     </div>
                     <div>
-                          <div className='flex justify-between'>
+                          <div className='flex justify-between '>
                             <h4 className='text-sm font-bold'>Frontend Developer</h4>
                             <span className='badge text-[10px]'>2025</span>
                             
@@ -50,11 +50,11 @@ const Experience = () => {
                           <p className='text-xs text-zinc-600 dark:text-zinc-400'>Supsoft Technologies</p>
                     </div>
                     <div>
-                        <div className='flex justify-between'>
-                            <h4 className='text-sm font-bold'>BS Information Technology</h4>
-                            <span className='badge text-[10px] '>2025</span>
+                        <div className='flex justify-between relative'>
+                            <h4 className='text-sm font-bold course-text'>BS Information Technology</h4>
+                            <span className='badge text-[10px] absolute right-0 '>2025</span>
                             
-                          </div>
+                        </div>
                           <p className='text-xs text-zinc-600 dark:text-zinc-400'>Cavite State University - Silang</p>
                     </div>
                       
