@@ -77,9 +77,12 @@ const StyledWrapper = styled.div`
   /* The switch - the box around the slider */
   svg {
     /* Change these values to your desired size */
-    width: 45px; 
+    width: 50px; 
     height: auto;
     transition: all 0.3s ease;
+      position:absolute;
+       top: 0 !important;
+    right: 0 !important;
   }
   #theme-toggle-button {
     font-size: 17px;

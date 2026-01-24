@@ -25,7 +25,7 @@ const Experience = () => {
                     </div>
                     
                     {/* Vertical Line */}
-                    <div className=' h-full w-0.5 bg-zinc-300 absolute left-[50%] top-0 z-0' ></div>
+                    <div className=' h-full w-0.5 bg-zinc-300 absolute left-[50%] top-0 z-0 dark:bg-zinc-400' ></div>
 
                 </div>
 
@@ -52,7 +52,7 @@ const Experience = () => {
                     <div>
                         <div className='flex justify-between'>
                             <h4 className='text-sm font-bold'>BS Information Technology</h4>
-                            <span className='badge text-[10px]'>2025</span>
+                            <span className='badge text-[10px] '>2025</span>
                             
                           </div>
                           <p className='text-xs text-zinc-600 dark:text-zinc-400'>Cavite State University - Silang</p>

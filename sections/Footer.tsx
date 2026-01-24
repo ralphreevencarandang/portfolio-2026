@@ -21,7 +21,8 @@ import nextWhite from '@/public/icons/next-white.svg'
     gsap.to(e.currentTarget, {
       y: 0, // Returns to original position
       duration: 0.3,
-      ease: "circ.inOut"
+      ease: "power2.out"
+      
     })
   }
 
