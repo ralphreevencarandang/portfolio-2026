@@ -8,17 +8,18 @@ import { useEffect, useState } from "react";
 
 const Switch = () => {
 
-    const { theme, setTheme } = useTheme();
+    const {  resolvedTheme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
+
 
      // Avoid hydration mismatch by only rendering after mount
   useEffect(() => {
-    setMounted(true);
+    setMounted(true); 
   }, []);
 
   if (!mounted) return <div className="p-2 w-9 h-9" />; // Placeholder
 
-  const isDark = theme === "dark";
+  const isDark = resolvedTheme == "dark";
 
   return (
     <StyledWrapper>
