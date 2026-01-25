@@ -11,7 +11,7 @@ const ChatHeader = ({onClick} : {onClick: ()=>void}) => {
                 <div>
                     <p className='font-bold'>Ralph</p>
                     <div className='flex gap-2 '>
-                        <div className='bg-green-500 w-2 h-2 rounded-full mt-0.5'></div>
+                        <div className='bg-green-500 w-2 h-2 rounded-full mt-0.75'></div>
                         <p className='text-xxs'>  Online</p>
                     </div>
                 </div>
