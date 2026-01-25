@@ -34,6 +34,8 @@ const BubbleConverstation = ({ chats, loading} : { chats: Chat[], loading : bool
           <TypingBubble />
         </div>
       )}
+
+      
     </div>
   )
 }

@@ -26,7 +26,7 @@ const TypingBubble = () => {
   return (
     <div 
       ref={container} 
-      className="flex items-center space-x-1.5 p-3 bg-gray-200 rounded-2xl rounded-bl-none w-fit"
+      className="flex items-center space-x-1.5 p-3 bg-gray-200 rounded-2xl dark:bg-zinc-700 rounded-bl-none w-fit"
     >
       <div className="dot w-1 h-1 bg-gray-500 rounded-full" />
       <div className="dot w-1 h-1 bg-gray-500 rounded-full" />
