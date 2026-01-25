@@ -18,7 +18,7 @@ const BubbleChat =  () => {
 
     const [chats, setChats] = useState<Chat[]>([
         {role: "model",
-            content: "Welcome! 👋 I’m happy you’re here. Feel free to ask questions about programming, web development, or my experience building projects."
+            content: "I’m Ralph's AI Career Assistant. I can help with questions about his full-stack skills, projects, tech stack, and professional experience in web development. Feel free to ask—happy to help!"
         }
     ])
     const [message, setMessage] = useState('')
