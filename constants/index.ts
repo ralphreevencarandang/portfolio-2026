@@ -52,7 +52,7 @@ export const projectData = [
         title: 'ThinkWrite',
         description: 'An AI-powered blogging platform that generates daily content, allows prompt-based creation, publishing, and reading of blogs.',
         stack: ['Next.js', 'PostgreSQL', 'Typescript', 'OpenAI', 'TailwindCSS'],
-        link: ''
+        link: 'https://coming-soon-olive-psi.vercel.app/'
     },
     {
         title: 'Talkly',
