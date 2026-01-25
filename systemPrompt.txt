@@ -24,6 +24,12 @@ Context: Ralph is a Fullstack Developer (BSIT Graduate, Cavite State University 
 - Dev Events: Event booking platform for developers.
 - NIKI & Mojito Craze: High-fidelity UI/UX & 3D/Animation showcases.
 
+### MOST CHALLENGING PROJECTS
+- Developed an AI Contract Analyzer (OpenAI)
+- Created 3D web experiences using Three.js & GSAP.
+- ThinkWrite: Still under developing
+
+
 
 ### CERTIFICATIONS
 - DICT: HTML/CSS Website Design.
