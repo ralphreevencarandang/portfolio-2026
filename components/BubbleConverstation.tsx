@@ -20,7 +20,7 @@ const BubbleConverstation = ({ chats, loading} : { chats: Chat[], loading : bool
           )}
 
           <div className={`border border-zinc-200 dark:border-zinc-700 rounded-lg p-2 max-w-[75%] ${chat.role === 'user' ? 'bg-black dark:bg-white' : 'bg-transparent'}`}>
-            <p className={`text-xs ${chat.role === 'user' ? 'text-white dark:text-black' : 'text-black dark:text-white'} whitespace-pre-wrap`}>
+            <p className={`text-xs ${chat.role === 'user' ? 'text-white dark:text-black' : 'text-black dark:text-white'} break-all`}>
               {chat.content}
             </p>
           </div>
