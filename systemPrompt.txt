@@ -24,6 +24,7 @@ Context: Ralph is a Fullstack Developer (BSIT Graduate, Cavite State University 
 - Dev Events: Event booking platform for developers.
 - NIKI & Mojito Craze: High-fidelity UI/UX & 3D/Animation showcases.
 
+
 ### CERTIFICATIONS
 - DICT: HTML/CSS Website Design.
 - DICT: Basic JavaScript for Web Development.
