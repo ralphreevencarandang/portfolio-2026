@@ -88,7 +88,7 @@ const BubbleChat =  () => {
 
          
 
-            const result = await fetch('http://localhost:3000/api/chat', {
+            const result = await fetch( `/api/chat`, {
                 method: "POST",
                 body: JSON.stringify({ message }),
                 headers: { 'Content-Type': 'application/json' },
