@@ -9,8 +9,7 @@ import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import BubbleConverstation from './BubbleConverstation'
 import { Chat } from '@/Types'
-import Image from 'next/image'
-import profileImage from '@/public/images/profile-img.jpg'
+
 
 const BubbleChat =  () => {
 
@@ -114,7 +113,7 @@ const BubbleChat =  () => {
             // add model response
             setChats(prev => [
             ...prev,
-            { role: 'model', content: data.text  }
+            { role: 'model', content: data.response  }
             ])
 
             console.log('response: ', data);
