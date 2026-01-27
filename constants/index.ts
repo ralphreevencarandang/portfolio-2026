@@ -22,6 +22,7 @@ export const backend = [
     'SQL',
     'PostgreSQL',
     'Prisma',
+    'REST API\'s'
 ]
 
 export const CMS = [
@@ -87,10 +88,10 @@ export const projectData = [
         link: 'https://memoirapp-frontend.onrender.com/'
     },
     {
-        title: 'NIKI',
-        description: 'A React-based Netflix-inspired app that displays a dynamic gallery of NIKI photos with a familiar streaming UI.',
-        stack: ['React', 'TailwindCSS','Framer Motion'],
-        link: 'https://niki-xi-six.vercel.app/'
+        title: 'Eclipse',
+        description: 'An Eclipse website clone with smooth, interactive animations implemented using GSAP.',
+        stack: ['Webflow', 'GSAP'],
+        link: 'https://eclipse-homepage.webflow.io/'
     },
    
     {
