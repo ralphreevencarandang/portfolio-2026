@@ -33,6 +33,7 @@ export const CMS = [
 
 export const devTools = [
     'Git',
+    'Docker',
     'Vite',
     'Postman',
     'Vercel',
