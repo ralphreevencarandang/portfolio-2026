@@ -66,7 +66,7 @@ export const projectData = [
         title: 'Dev Events',
         description: 'A developer-focused events platform where users can create events, book events, and browse upcoming developer activities.',
         stack: ['Next.js', 'MongoDB', 'TailwindCSS', 'Typescript'],
-        link: '#'
+        link: 'https://github.com/ralphreevencarandang/dev-events'
     },
 
     {
@@ -105,6 +105,18 @@ export const projectData = [
 ]
 
 export const certificates = [
+     {
+        title: "The Artificial Intelligence for communities workshop",
+        provider: "Vjal Institute",
+        link: '/pdfs/AI-Certificate.pdf'
+
+    },
+    {
+        title: "CISCO",
+        provider: "Javascript Essential 1",
+        link: 'https://www.credly.com/badges/db1079a1-39cd-4a37-b29d-09ce18a58bdd/linked_in?t=t9o6g8'
+
+    },
     {
         title: "Using HTML and CSS to Design a Website",
         provider: "Department of Information and Communications Technology",
@@ -115,17 +127,18 @@ export const certificates = [
         provider: "Department of Information and Communications Technology",
         link: '/pdfs/basic-js.pdf'
     },
-    {
-        title: "Javascript Fundametnals",
-        provider: "GreatStack",
-        link: '/pdfs/js-fundamentals.pdf'
-    },
-    {
-        title: "React Hooks Crash Course",
-        provider: "GreatStack",
-        link: '/pdfs/react-hooks.pdf'
+   
+    //  {
+    //     title: "Javascript Fundametnals",
+    //     provider: "GreatStack",
+    //     link: '/pdfs/js-fundamentals.pdf'
+    // },
+    // {
+    //     title: "React Hooks Crash Course",
+    //     provider: "GreatStack",
+    //     link: '/pdfs/react-hooks.pdf'
 
-    },
+    // },
     {
         title: "Full Stack E-Commerce Project",
         provider: "GreatStack",

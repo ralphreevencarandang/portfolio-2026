@@ -1,4 +1,4 @@
-import { Trophy } from 'lucide-react'
+import { ChevronRight, Trophy } from 'lucide-react'
 import React from 'react'
 import { certificates } from '@/constants'
 import Link from 'next/link'
@@ -6,9 +6,18 @@ const Certificate = () => {
   return (
    <div className='card '>
 
-        <div className='flex flex-nowrap items-center gap-2 '>
-          <span><Trophy color='#71717a' size={20}/></span>
-          <h2 className='font-bold'>Certificates</h2>
+        <div className='flex flex-nowrap items-center justify-between'>
+          <div className='flex flex-nowrap items-center gap-2'>
+            <span><Trophy color='#71717a' size={20}/></span>
+            <h2 className='font-bold'>Certificates</h2>
+          </div>
+
+          <div className='flex flex-nowrap items-center gap-1'>
+            <Link href={''} className='text-xs text-zinc-700 dark:text-white'>View All</Link>
+            <ChevronRight size={12} className='text-zinc-700 dark:text-white'/>
+
+          </div>
+
         </div>
 
         <div className='space-y-2'>
