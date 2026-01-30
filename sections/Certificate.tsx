@@ -13,7 +13,7 @@ const Certificate = () => {
           </div>
 
           <div className='flex flex-nowrap items-center gap-1'>
-            <Link href={''} className='text-xs text-zinc-700 dark:text-white'>View All</Link>
+            <Link href={'/certificates'} className='text-xs text-zinc-700 dark:text-white'>View All</Link>
             <ChevronRight size={12} className='text-zinc-700 dark:text-white'/>
 
           </div>
@@ -24,7 +24,7 @@ const Certificate = () => {
 
      
             
-              {certificates.map( (item, index) => 
+              {certificates.slice(0,5).map( (item, index) => 
              
                       <div key={index} className='bg-gray-100 p-2 rounded-lg  hover:bg-gray-200 transition-colors cursor-pointer dark:bg-zinc-800 dark:hover:bg-zinc-700'>
                           <Link href={item.link}  target='_blank'>

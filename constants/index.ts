@@ -112,8 +112,8 @@ export const certificates = [
 
     },
     {
-        title: "CISCO",
-        provider: "Javascript Essential 1",
+        title: "Javascript Essential 1",
+        provider: "CISCO",
         link: 'https://www.credly.com/badges/db1079a1-39cd-4a37-b29d-09ce18a58bdd/linked_in?t=t9o6g8'
 
     },
@@ -128,17 +128,17 @@ export const certificates = [
         link: '/pdfs/basic-js.pdf'
     },
    
-    //  {
-    //     title: "Javascript Fundametnals",
-    //     provider: "GreatStack",
-    //     link: '/pdfs/js-fundamentals.pdf'
-    // },
-    // {
-    //     title: "React Hooks Crash Course",
-    //     provider: "GreatStack",
-    //     link: '/pdfs/react-hooks.pdf'
+     {
+        title: "Javascript Fundametnals",
+        provider: "GreatStack",
+        link: '/pdfs/js-fundamentals.pdf'
+    },
+    {
+        title: "React Hooks Crash Course",
+        provider: "GreatStack",
+        link: '/pdfs/react-hooks.pdf'
 
-    // },
+    },
     {
         title: "Full Stack E-Commerce Project",
         provider: "GreatStack",
