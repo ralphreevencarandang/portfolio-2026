@@ -124,6 +124,12 @@ export const certificates = [
 
     },
     {
+        title: "Javascript Essential 2",
+        provider: "CISCO",
+        link: 'https://www.credly.com/badges/63ddbc46-b666-4d65-9307-96d29169debe/linked_in?t=t9sbp2'
+
+    },
+    {
         title: "Using HTML and CSS to Design a Website",
         provider: "Department of Information and Communications Technology",
         link: '/pdfs/html-css.pdf'
