@@ -23,11 +23,14 @@ const page = () => {
 
             <div className='flex flex-nowrap  gap-5 flex-col sm:items-center sm:flex-row'>
                 
-                <div className='flex flex-nowrap items-center gap-2'>    
-                    <ArrowLeft size={20} className=''/>
-                    <Link href={'/'} className='text-sm '>Back to home</Link>
+          
+                    
+                    <Link href={'/'} className='text-sm flex flex-nowrap items-center gap-2'>
+                        <ArrowLeft size={20} className=''/>
+                        Back to home
+                    </Link>
 
-                </div>
+             
                 <h1 className='text-2xl font-bold'>All Certifications</h1>
 
             </div>
