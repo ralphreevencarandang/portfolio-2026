@@ -51,11 +51,17 @@ export const techSupport = [
 
 export const projectData = [
     {
-        title: 'ThinkWrite',
-        description: 'An AI-powered blogging platform that generates daily content, allows prompt-based creation, publishing, and reading of blogs.',
-        stack: ['Next.js', 'PostgreSQL', 'Typescript', 'OpenAI', 'TailwindCSS'],
-        link: 'https://coming-soon-olive-psi.vercel.app/'
+        title: 'Certicode',
+        description: 'Web-based Learning Management System that offers webinars, seminars, and online courses with digital certificates upon completion.',
+        stack: ['React', 'Laravel', 'SQL', 'Framer Motion', 'TailwindCSS'],
+        link: 'https://certicode.tech/'
     },
+    // {
+    //     title: 'ThinkWrite',
+    //     description: 'An AI-powered blogging platform that generates daily content, allows prompt-based creation, publishing, and reading of blogs.',
+    //     stack: ['Next.js', 'PostgreSQL', 'Typescript', 'OpenAI', 'TailwindCSS'],
+    //     link: 'https://coming-soon-olive-psi.vercel.app/'
+    // },
     {
         title: 'Talkly',
         description: 'Built a real-time chat application using the MERN stack, featuring instant messaging, online user presence, and image sharing via Socket.IO and Cloudinary.',
