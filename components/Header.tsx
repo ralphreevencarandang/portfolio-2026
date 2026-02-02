@@ -51,7 +51,7 @@ const Header = () => {
                     <div className='flex flex-col w-full gap-2 sm:flex-row '>
     
 
-                        <Link href={'/pdfs/CARANDANG_CV.pdf'} 
+                        <Link href={'/pdfs/CARANDANG-RESUME.pdf'} 
                         target='_blank'
                         className='header-button bg-black border border-slate-300   00 rounded py-2 px-2 text-sm font-semibold flex items-center justify-center gap-2 cursor-pointer text-white hover:bg-white hover:text-black transition-all dark:bg-white dark:text-black'
                         onMouseEnter={handleMouseEnter}
