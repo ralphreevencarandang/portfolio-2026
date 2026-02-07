@@ -89,7 +89,7 @@ const StyledWrapper = styled.div`
     font-size: 17px;
     position: relative;
     display: inline-block;
-    width: 7em;
+    
     cursor: pointer;
   }
 
